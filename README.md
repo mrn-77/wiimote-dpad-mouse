@@ -3,9 +3,7 @@ Script to use a WiiMote as a mouse on linux (Ubuntu 24.04)
 
 ## Install dependencies
 sudo apt update
-sudo apt-get install wminput python3-cwiid lswm
-sudo apt-get install python3-pynput
-sudo apt-get install python3-uinput
+sudo apt-get install wminput python3-cwiid lswm python3-pynput python3-uinput
 
 ### Configuration
 sudo usermod -aG input $USER
